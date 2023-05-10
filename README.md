@@ -1,4 +1,4 @@
-# [Your Name]'s Motion-Rich Portfolio
+# Oussama's Motion-Rich Portfolio
 
 This is a motion-rich portfolio website created using React and Tailwind CSS. The website showcases some of my recent work as a developer/designer and features custom animations and smooth page transitions.
 
