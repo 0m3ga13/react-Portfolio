@@ -38,9 +38,9 @@ const Contact = () => {
       import.meta.env.TEMPLATE_CODE,
       {
         from_name: form.name,
-        to_name: "JavaScript Mastery",
+        to_name: "Oussama",
         from_email: form.email,
-        to_email: "sujata@jsmastery.pro",
+        to_email: "barkaoussama13@gmail.com",
         message: form.message,
       },
       import.meta.env.PUBLIC_CODE,
@@ -88,7 +88,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="Please provide your name"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
