@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -31,7 +31,7 @@ const ProjectCard = ({
             src={image}
             alt='project_image'
             className='w-full h-full object-fill rounded-2xl'
-            loading="lazy"
+            loading='lazy'
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
